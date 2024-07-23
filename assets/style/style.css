@@ -67,11 +67,11 @@ body {
 
 .messege-box {
   text-align: left;
-  background-color: rgb(233, 233, 233, 0.9);
+  background-color: rgb(233, 233, 233, 0.74);
   border-radius: 1rem;
   margin: 0.5rem 1rem;
   padding: 13px;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.801);
   cursor: pointer;
   transform: translateX(-100vw);
@@ -79,11 +79,12 @@ body {
 }
 
 .content {
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
 }
 
 .content .nama {
   font-size: 12px;
+  margin-bottom: 8px;
 }
 
 .content .pesan {
