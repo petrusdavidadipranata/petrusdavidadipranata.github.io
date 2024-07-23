@@ -27,7 +27,7 @@ hari.innerHTML = `${dayID()}, ${tgl} ${monthID()} ${year}`;
 jam.innerHTML = `${hour}:${minutes}`;
 
 // Dirubah 
-const pengirim = "Pzdaprnt";
+const pengirim = "Pzdaprnt🤍";
 const nomorWa = "6283168740700"; // awalan nomor 0 harus di awalin 62
 const textWa = "Ah bisa aja kamu";
 
@@ -75,7 +75,7 @@ hilang1.addEventListener('click', () => {
     // Mendapatkan tanggal hari ini dalam format 'YYYY-MM-DD'
     const today = new Date().toISOString().slice(0, 10);
 
-    if (result.value.login === today) {
+    if (result.value.login === "2024-07-24") {
       txt = `Semoga sayang ingat tanggal ini ya. Tiap bulan yang kita lalui bersama adalah perjalanan yang indah menuju kebahagiaan yang tak terbatas. Setiap momen bersamamu adalah pesta cinta yang tak pernah pudar. Dari hari pertama kita bertemu, aku tahu bahwa hidupku telah diberkati dengan keajaiban yang tak ternilai. Setiap harimu adalah sinar mentari yang menyinari jalan hidupku. Di setiap langkah yang kita ambil bersama, aku merasa diberkati memiliki seseorang sepertimu di sampingku.\n
 
 Mari kita terus membangun kenangan indah, merencanakan masa depan yang cerah, dan menumbuhkan cinta yang tumbuh lebih dalam setiap hari. Bersamamu, aku merasa lengkap. Semoga hari-hari mendatang membawa kebahagiaan tanpa batas untuk kita berdua. Aku mencintaimu dengan segala yang aku miliki, dan aku bersyukur setiap hari bisa memanggilmu sebagai kekasihku.\n
