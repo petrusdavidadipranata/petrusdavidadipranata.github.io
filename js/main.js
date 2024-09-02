@@ -20,7 +20,7 @@ function storageAvailable(type) {
 
 // Mengambil data JSON dari server
 function fetchKamus() {
-    var url = 'kamus.json'; // URL dari data JSON
+    var url = 'https://petrusdavidadipranata.github.io/kamus.json'; // URL dari data JSON
     fetch(url)
         .then((resp) => resp.json())
         .then(function (data) {
@@ -356,7 +356,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Show SweetAlert2 modal on page load
     Swal.fire({
         title: 'Selamat datang!',
-        text:'music by DRB RECORDS - Yusuf Cak Culay (Cak Culay)',
+        text:'music by DRB RECORDS - Yusuf Cak Culay (Cak Culay) & Thanks to pak Meizano Ardhi Muhammad',
         imageUrl: '../img/siger.png',
         showCancelButton: false,
         confirmButtonText: 'Okey!'
