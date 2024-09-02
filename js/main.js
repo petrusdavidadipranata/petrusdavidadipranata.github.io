@@ -20,7 +20,7 @@ function storageAvailable(type) {
 
 // Mengambil data JSON dari server
 function fetchKamus() {
-    var url = 'https://meizano.github.io/lampung/dispatcher/indonesia2lampung.js'; // URL dari data JSON
+    var url = 'kamus.json'; // URL dari data JSON
     fetch(url)
         .then((resp) => resp.json())
         .then(function (data) {
@@ -43,8 +43,8 @@ function fetchKamus() {
 function fetchKamusDariLocalStorage(data) {
     kamus = JSON.parse(data);
     hasilTerjemah.innerHTML = 'Siap menterjemahkan (tersedia offline)';
-    hasilTerjemah.classList.remove("alert", "alert-info", "alert-warning");
-    hasilTerjemah.classList.add("alert", "alert-info");
+    hasilTerjemah.classList.remove("alert", "alert-success", "alert-warning");
+    hasilTerjemah.classList.add("alert", "alert-success");
 };
 
 if (storageAvailable('localStorage')) {
@@ -137,9 +137,9 @@ kataAsal.onkeyup = function () {
 
     // Jika spasi saja, tidak diproses
     if (!kataAsals.replace(/\s/g, '').length) {
-        hasilTerjemah.innerHTML = 'Selamat menterjemahkan';
-        hasilTerjemah.classList.remove("alert", "alert-info", "alert-warning");
-        hasilTerjemah.classList.add("alert", "alert-info");
+        hasilTerjemah.innerHTML = 'Selamat menerjemahkan!';
+        hasilTerjemah.classList.remove("alert", "alert-success", "alert-warning");
+        hasilTerjemah.classList.add("alert", "alert-success");
     } else {
         // Mengubah kata/kalimat yang diketik menjadi array String
         let kataAl = kataAsals.split(/\s+/);
@@ -150,7 +150,7 @@ kataAsal.onkeyup = function () {
 
         //Mengosongkan nilai dan menghilangkan style
         hasilTerjemah.innerHTML = '';
-        hasilTerjemah.classList.remove("alert", "alert-info", "alert-warning");
+        hasilTerjemah.classList.remove("alert", "alert-success", "alert-warning");
         let strong = createNode("strong");
         strong.innerHTML = kataAsal.value + ' (' + bahasa.value + ') : <br/>';
         let spanAksara = createNode('span');
@@ -218,7 +218,7 @@ kataAsal.onkeyup = function () {
             console.log(terjemahan);
         }
 
-        hasilTerjemah.classList.add("alert", "alert-info");
+        hasilTerjemah.classList.add("alert", "alert-success");
     }
 };
 
@@ -230,8 +230,8 @@ aksaraAsal.onkeyup = function () {
     if (!aksaraAsals.replace(/\s/g, '').length) {
         aksaraAsal.classList.remove("aksaraLampung");
         hasilTerjemah.innerHTML = 'Selamat menterjemahkan';
-        hasilTerjemah.classList.remove("alert", "alert-info", "alert-warning");
-        hasilTerjemah.classList.add("alert", "alert-info");
+        hasilTerjemah.classList.remove("alert", "alert-success", "alert-warning");
+        hasilTerjemah.classList.add("alert", "alert-success");
     } else {
         aksaraAsal.classList.add("aksaraLampung");
         // Mengubah kata/kalimat yang diketik menjadi array String
@@ -311,7 +311,7 @@ aksaraAsal.onkeyup = function () {
             console.log(terjemahan);
         }
 
-        hasilTerjemah.classList.add("alert", "alert-info");
+        hasilTerjemah.classList.add("alert", "alert-success");
     }
 };
 
