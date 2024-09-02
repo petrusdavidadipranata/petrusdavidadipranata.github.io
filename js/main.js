@@ -356,6 +356,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Show SweetAlert2 modal on page load
     Swal.fire({
         title: 'Selamat datang!',
+        text:'music by DRB RECORDS - Yusuf Cak Culay (Cak Culay)',
         imageUrl: '../img/siger.png',
         showCancelButton: false,
         confirmButtonText: 'Okey!'
