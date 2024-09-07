@@ -50,6 +50,6 @@ body {
 
 @media (max-width: 768px) {
     .hero::before{
-        background-image: url('/img/bg-hp.jpg');
+        background-image: url('https://petrusdavidadipranata.github.io/UNDANGAN-1/img/bg-hp.jpg');
     }
 }
