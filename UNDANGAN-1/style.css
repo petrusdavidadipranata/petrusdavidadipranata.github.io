@@ -1,0 +1,55 @@
+:root {
+    --pink: #720545;
+    --bg: #0a0a0a;
+    --shadow: 0 2px 2px rgba(0,0,0 / 0.5);
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: 'Work Sans', sans-serif;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+    background-size: cover;
+    background-image:url('https://rcdos.ca/wp-content/uploads/2019/03/wedding-hands-20100520_m_edited-1-1024x683.jpg');
+    z-index: -1;
+    -webkit-filter: blur(2px);
+}
+.hero {
+    min-height: 100vh;
+    background-color: #0a0a0a47;
+}
+
+.hero h1 {
+    font-family: "Sacramento", cursive;
+}
+.hero h4 {
+    font-size: 1.6rem;
+}
+.hero p {
+    font-size: 1.4rem;
+}
+
+.hero .btn {
+    margin-top: 20px;
+    font-size: 1rem;
+    color:var(--pink);
+    background-color: white;
+}
+
+.hero .btn:hover {
+    color: white;
+    background-color: var(--pink);
+}
+
+@media (max-width: 768px) {
+    .hero::before{
+        background-image: url('/img/bg-hp.jpg');
+    }
+}

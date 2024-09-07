@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/img/arjuna.jpg" type="image/png">
+
+    <title>David & Eca Wedding</title>
+
+    <!-- cdn bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- ------ -->
+
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- ------- -->
+
+    <!-- simply countdown -->
+    <link rel="stylesheet" href="/countdown/simplyCountdown.theme.default.css">
+    <script src="/countdown/simplyCountdown.min.js"></script>
+    <!-- -------- -->
+
+    <!-- SweetAlert -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.13.2/dist/sweetalert2.min.css" integrity="sha256-KIZHD6c6Nkk0tgsncHeNNwvNU1TX8YzPrYn01ltQwFg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.13.2/dist/sweetalert2.all.min.js" integrity="sha256-M8Pl9/5V5HxCVCtvJX5h4KMX5GqtB6RXstTvR2bMwK8=" crossorigin="anonymous"></script>
+    <!-- -------- -->
+    
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <audio src="https://petrusdavidadipranata.github.io/audio/Gending%20Temanten%20Adat%20Jawa%20%20kebo%20giro.mp3" autoplay></audio>
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+        <main>
+            <h4>Kepada Bapak/Ibu/Saudara/i, </h4>
+            <hr>
+            <h1>Petrus David & Stepani Tesya</h1>
+            <hr>
+            <p>Akan melangsungkan resepsi pernikahan dalam:</p>
+            <div class="simply-countdown">
+
+            </div>
+            <button onclick="prank()" class="btn btn-lg">Lihat Undangan</button>
+        </main>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+      window.onload = function() {
+        Swal.fire({
+          title: 'Selamat Datang',
+          text: 'Dengan penuh kebahagiaan, kami mengundang Anda untuk hadir pada acara istimewa kami.',
+          imageUrl: 'https://www.weddingku.id/wp-content/uploads/2020/11/KRISTEN-6.jpg',
+          imageWidth: 400,
+          imageHeight: 300,
+          confirmButtonText: 'Lanjutkan'
+        });
+      };
+        function prank(){
+            Swal.fire({
+                title: "It's a PRANK!",
+                text: "Hahahahahaha.",
+                imageUrl: "https://media.tenor.com/zpdH6e9PM8QAAAAi/eli.gif",
+                imageWidth: 400,
+                imageHeight: 400,
+                imageAlt: "Custom image",
+                footer: 'Maaf ya ges yaa, nanti dikabarin beneran kok kalo udah waktunya hehe',
+                confirmButtonText: 'Oke'
+              });
+        }
+
+
+        //script Countdowns
+        simplyCountdown('.simply-countdown', {
+            year: 2026,
+            month: 2,
+            day: 24,
+            hours: 8,
+            words: {
+                days: {singular: 'Hari', plural: 'Hari'},
+                hours: {singular: 'Jam', plural: 'Jam'},
+                minutes: {singular: 'Menit', plural:'Menit'},
+                seconds: {singular: 'Detik', plural:'Detik'}
+            },
+        });
+    </script>
+  </body>
+</html>
