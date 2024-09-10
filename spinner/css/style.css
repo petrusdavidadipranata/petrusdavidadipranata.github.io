@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.content {
+    height: 100vh;
+}
+canvas {
+    padding: 15px; /* Mengurangi padding pada perangkat kecil */
+    border-radius: 10px;
+    border: 2px solid #000;
+    width: 100%; /* Memastikan canvas menggunakan lebar penuh */
+    max-width: 500px; /* Maksimum lebar canvas */
+}
+
+.panah {
+    position: absolute;
+    top: 70%;
+    right: 50%; /* Mengatur posisi panah */
+    transform: translateX(50%); /* Memusatkan panah di bawah roda */
+    font-size: 2rem; /* Mengurangi ukuran font panah */
+}
+
+.input-group {
+    margin-bottom: 15px; /* Mengatur jarak bawah pada input group */
+}
+
+.btn {
+    margin-top: 10px; /* Menambahkan jarak atas untuk tombol */
+}
+
+.name-list-container {
+    max-height: 150px; /* Atur tinggi maksimum sesuai kebutuhan */
+    overflow-y: auto; /* Aktifkan scroll vertikal jika diperlukan */
+    border: 1px solid #ddd; /* Tambahkan batas untuk tampilan yang lebih jelas */
+    border-radius: 5px; /* Radius sudut untuk batas */
+    padding: 10px; /* Tambahkan padding di dalam kontainer */
+}
+/* Responsif untuk layar kecil */
+@media (max-width: 576px) {
+    .panah {
+        font-size: 1.5rem; /* Mengurangi ukuran font panah pada perangkat kecil */
+    }
+
+    .input-group input {
+        font-size: 14px; /* Mengatur ukuran font input pada perangkat kecil */
+    }
+
+    .btn {
+        font-size: 14px; /* Mengatur ukuran font tombol pada perangkat kecil */
+    }
+
+    .canvas-container {
+        padding: 10px; /* Mengurangi padding pada container canvas */
+    }
+}
