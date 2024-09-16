@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Effect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="love-container"></div>
+
+    <div class="content">
+        <h3>Hai seberapa persen cintamu ke aku?</h3>
+        <span id="rangeValue">0%</span>
+        <input class="range" type="range" name="" value="0" min="0" max="100" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></input>
+        <button onclick="submitLove()">Kirim</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.min.js"></script>
+    <script type="text/javascript">
+        function rangeSlide(value) {
+            document.getElementById('rangeValue').innerHTML = value + '%';
+        }
+
+        function submitLove() {
+            const rangeValue = document.querySelector('.range').value;
+
+            if (rangeValue < 50) {
+                Swal.fire({
+                    imageUrl: "https://media.tenor.com/mX64AbW856EAAAAi/dudu-dudu-angry.gif",
+                    imageWidth: 200,
+                    imageHeight: 200,
+                    title: 'Yahhh',
+                    text: 'Kamu tidak mencintaiku sepenuh hati :('
+                });
+            } else if (rangeValue < 80) {
+                Swal.fire({
+                    imageUrl: "https://media.tenor.com/hJAtld56tFkAAAAi/peach-goma.gif",
+                    imageWidth: 200,
+                    imageHeight: 200,
+                    title: 'Wahhh',
+                    text: `Terima kasih! aku juga mencintaimu sebanyak ${rangeValue}%`
+                });
+            } else if (rangeValue < 100) {
+                Swal.fire({
+                    imageUrl: "https://media1.tenor.com/m/XAabbheOS24AAAAC/goma-happy.gif",
+                    imageWidth: 200,
+                    imageHeight: 200,
+                    title: 'Wow!',
+                    text: `Cintamu luar biasa!`
+                });
+            } else {
+                Swal.fire({
+                    imageUrl: "https://media1.tenor.com/m/uJZDe916GaAAAAAC/kiss-i-love-you.gif",
+                    imageWidth: 250,
+                    imageHeight: 200,
+                    title: 'Ahhh!',
+                    text: 'Love you so muchhhh! Mwahhh banyak-banyak! Terimakasih sudah mencintaiku full powerrr'
+                });
+
+                // Tampilkan love-container
+                document.querySelector('.love-container').style.display = 'block';
+            }
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
