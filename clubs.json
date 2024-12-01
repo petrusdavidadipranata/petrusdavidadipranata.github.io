@@ -1,0 +1,254 @@
+{
+  "teams": [
+    {
+      "rank": 1,
+      "name": "Manchester City",
+      "league": "Liga Inggris"
+    },
+    {
+      "rank": 2,
+      "name": "Bayern Munich",
+      "league": "Bundesliga"
+    },
+    {
+      "rank": 3,
+      "name": "Liverpool",
+      "league": "Liga Inggris"
+    },
+    {
+      "rank": 4,
+      "name": "Barcelona",
+      "league": "Liga Spanyol"
+    },
+    {
+      "rank": 5,
+      "name": "Paris Saint-Germain",
+      "league": "Liga Prancis"
+    },
+    {
+      "rank": 6,
+      "name": "Real Madrid",
+      "league": "Liga Spanyol"
+    },
+    {
+      "rank": 7,
+      "name": "Manchester United",
+      "league": "Liga Inggris"
+    },
+    {
+      "rank": 8,
+      "name": "Chelsea",
+      "league": "Liga Inggris"
+    },
+    {
+      "rank": 9,
+      "name": "RB Leipzig",
+      "league": "Bundesliga"
+    },
+    {
+      "rank": 10,
+      "name": "Atletico Madrid",
+      "league": "Liga Spanyol"
+    },
+    {
+      "rank": 11,
+      "name": "Borussia Dortmund",
+      "league": "Bundesliga"
+    },
+    {
+      "rank": 12,
+      "name": "Atalanta",
+      "league": "Liga Italia"
+    },
+    {
+      "rank": 13,
+      "name": "Sevilla",
+      "league": "Liga Spanyol"
+    },
+    {
+      "rank": 14,
+      "name": "Inter Milan",
+      "league": "Liga Italia"
+    },
+    {
+      "rank": 15,
+      "name": "Wolverhampton Wanderers",
+      "league": "Liga Inggris"
+    },
+    {
+      "rank": 16,
+      "name": "RB Salzburg",
+      "league": "Liga Austria"
+    },
+    {
+      "rank": 17,
+      "name": "Leicester City",
+      "league": "Liga Inggris"
+    },
+    {
+      "rank": 18,
+      "name": "AC Milan",
+      "league": "Liga Italia"
+    },
+    {
+      "rank": 19,
+      "name": "Juventus",
+      "league": "Liga Italia"
+    },
+    {
+      "rank": 20,
+      "name": "Bayer Leverkusen",
+      "league": "Bundesliga"
+    },
+    {
+      "rank": 21,
+      "name": "Borussia Monchengladbach",
+      "league": "Bundesliga"
+    },
+    {
+      "rank": 22,
+      "name": "Zenit Saint Petersburg",
+      "league": "Liga Russia"
+    },
+    {
+      "rank": 23,
+      "name": "Napoli",
+      "league": "Liga Italia"
+    },
+    {
+      "rank": 24,
+      "name": "Real Sociedad",
+      "league": "Liga Spanyol"
+    },
+    {
+      "rank": 25,
+      "name": "Villarreal",
+      "league": "Liga Spanyol"
+    },
+    {
+      "rank": 26,
+      "name": "Getafe",
+      "league": "Liga Spanyol"
+    },
+    {
+      "rank": 27,
+      "name": "Ajax",
+      "league": "Liga Belanda"
+    },
+    {
+      "rank": 28,
+      "name": "Tottenham Hotspur",
+      "league": "Liga Inggris"
+    },
+    {
+      "rank": 29,
+      "name": "Arsenal",
+      "league": "Liga Inggris"
+    },
+    {
+      "rank": 30,
+      "name": "Roma",
+      "league": "Liga Italia"
+    },
+    {
+      "rank": 31,
+      "name": "Porto",
+      "league": "Liga Portugal"
+    },
+    {
+      "rank": 32,
+      "name": "Granada",
+      "league": "Liga Spanyol"
+    },
+    {
+      "rank": 33,
+      "name": "Southampton",
+      "league": "Liga Inggris"
+    },
+    {
+      "rank": 34,
+      "name": "Olympiacos",
+      "league": "Liga Yunani"
+    },
+    {
+      "rank": 35,
+      "name": "Hoffenheim",
+      "league": "Bundesliga"
+    },
+    {
+      "rank": 36,
+      "name": "Flamengo",
+      "league": "Liga Brasil"
+    },
+    {
+      "rank": 37,
+      "name": "Wolfsburg",
+      "league": "Bundesliga"
+    },
+    {
+      "rank": 38,
+      "name": "Everton",
+      "league": "Liga Inggris"
+    },
+    {
+      "rank": 39,
+      "name": "Leganes",
+      "league": "Liga Spanyol"
+    },
+    {
+      "rank": 40,
+      "name": "Lyon",
+      "league": "Liga Prancis"
+    },
+    {
+      "rank": 41,
+      "name": "Benfica",
+      "league": "Liga Portugal"
+    },
+    {
+      "rank": 42,
+      "name": "Shakhtar Donetsk",
+      "league": "Liga Ukraina"
+    },
+    {
+      "rank": 43,
+      "name": "Real Betis",
+      "league": "Liga Spanyol"
+    },
+    {
+      "rank": 44,
+      "name": "Eintracht Frankfurt",
+      "league": "Bundesliga"
+    },
+    {
+      "rank": 45,
+      "name": "Lazio",
+      "league": "Liga Italia"
+    },
+    {
+      "rank": 46,
+      "name": "Sheffield United",
+      "league": "Liga Inggris"
+    },
+    {
+      "rank": 47,
+      "name": "Burnley",
+      "league": "Liga Inggris"
+    },
+    {
+      "rank": 48,
+      "name": "Lille",
+      "league": "Liga Prancis"
+    },
+    {
+      "rank": 49,
+      "name": "Watford",
+      "league": "Liga Inggris/Divisi Championship"
+    },
+    {
+      "rank": 50,
+      "name": "Osasuna",
+      "league": "Liga Spanyol"
+    }
+  ]
+}
