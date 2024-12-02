@@ -3,252 +3,302 @@
     {
       "rank": 1,
       "name": "Manchester City",
-      "league": "Liga Inggris"
+      "league": "Liga Inggris",
+      "logo": "https://petrusdavidadipranata.github.io/img/m-city.png"
     },
     {
       "rank": 2,
       "name": "Bayern Munich",
-      "league": "Bundesliga"
+      "league": "Bundesliga",
+      "logo": "https://petrusdavidadipranata.github.io/img/b-munich.png"
     },
     {
       "rank": 3,
       "name": "Liverpool",
-      "league": "Liga Inggris"
+      "league": "Liga Inggris",
+      "logo": "https://petrusdavidadipranata.github.io/img/liverpool.png"
     },
     {
       "rank": 4,
       "name": "Barcelona",
-      "league": "Liga Spanyol"
+      "league": "Liga Spanyol",
+      "logo": "https://petrusdavidadipranata.github.io/img/barcelona.png"
     },
     {
       "rank": 5,
       "name": "Paris Saint-Germain",
-      "league": "Liga Prancis"
+      "league": "Liga Prancis",
+      "logo": "https://petrusdavidadipranata.github.io/img/psg.png"
     },
     {
       "rank": 6,
       "name": "Real Madrid",
-      "league": "Liga Spanyol"
+      "league": "Liga Spanyol",
+      "logo": "https://petrusdavidadipranata.github.io/img/realmadrid.png"
     },
     {
       "rank": 7,
       "name": "Manchester United",
-      "league": "Liga Inggris"
+      "league": "Liga Inggris",
+      "logo": "https://petrusdavidadipranata.github.io/img/m-united.png"
     },
     {
       "rank": 8,
       "name": "Chelsea",
-      "league": "Liga Inggris"
+      "league": "Liga Inggris",
+      "logo": "https://petrusdavidadipranata.github.io/img/chelsea.png"
     },
     {
       "rank": 9,
       "name": "RB Leipzig",
-      "league": "Bundesliga"
+      "league": "Bundesliga",
+      "logo": "https://petrusdavidadipranata.github.io/img/rb-leipzig.png"
     },
     {
       "rank": 10,
       "name": "Atletico Madrid",
-      "league": "Liga Spanyol"
+      "league": "Liga Spanyol",
+      "logo": "https://petrusdavidadipranata.github.io/img/a-madrid.png"
     },
     {
       "rank": 11,
       "name": "Borussia Dortmund",
-      "league": "Bundesliga"
+      "league": "Bundesliga",
+      "logo": "https://petrusdavidadipranata.github.io/img/bvb.png"
     },
     {
       "rank": 12,
       "name": "Atalanta",
-      "league": "Liga Italia"
+      "league": "Liga Italia",
+      "logo": "https://petrusdavidadipranata.github.io/img/atlanta.png"
     },
     {
       "rank": 13,
       "name": "Sevilla",
-      "league": "Liga Spanyol"
+      "league": "Liga Spanyol",
+      "logo": "https://petrusdavidadipranata.github.io/img/sevilla.png"
     },
     {
       "rank": 14,
       "name": "Inter Milan",
-      "league": "Liga Italia"
+      "league": "Liga Italia",
+      "logo": "https://petrusdavidadipranata.github.io/img/intermilan.png"
     },
     {
       "rank": 15,
       "name": "Wolverhampton Wanderers",
-      "league": "Liga Inggris"
+      "league": "Liga Inggris",
+      "logo": "https://petrusdavidadipranata.github.io/img/wolverhampton.png"
     },
     {
       "rank": 16,
       "name": "RB Salzburg",
-      "league": "Liga Austria"
+      "league": "Liga Austria",
+      "logo": "https://petrusdavidadipranata.github.io/img/rb-salzburg.png"
     },
     {
       "rank": 17,
       "name": "Leicester City",
-      "league": "Liga Inggris"
+      "league": "Liga Inggris",
+      "logo": "https://petrusdavidadipranata.github.io/img/leicester.png"
     },
     {
       "rank": 18,
       "name": "AC Milan",
-      "league": "Liga Italia"
+      "league": "Liga Italia",
+      "logo": "https://petrusdavidadipranata.github.io/img/acmilan.png"
     },
     {
       "rank": 19,
       "name": "Juventus",
-      "league": "Liga Italia"
+      "league": "Liga Italia",
+      "logo": "https://petrusdavidadipranata.github.io/img/juventus.png"
     },
     {
       "rank": 20,
       "name": "Bayer Leverkusen",
-      "league": "Bundesliga"
+      "league": "Bundesliga",
+      "logo": "https://petrusdavidadipranata.github.io/img/b-leverkusen.png"
     },
     {
       "rank": 21,
       "name": "Borussia Monchengladbach",
-      "league": "Bundesliga"
+      "league": "Bundesliga",
+      "logo": "https://petrusdavidadipranata.github.io/img/borusia-monchengladbach.png"
     },
     {
       "rank": 22,
       "name": "Zenit Saint Petersburg",
-      "league": "Liga Russia"
+      "league": "Liga Russia",
+      "logo": "https://petrusdavidadipranata.github.io/img/zenit.png"
     },
     {
       "rank": 23,
       "name": "Napoli",
-      "league": "Liga Italia"
+      "league": "Liga Italia",
+      "logo": "https://petrusdavidadipranata.github.io/img/napoli.png"
     },
     {
       "rank": 24,
       "name": "Real Sociedad",
-      "league": "Liga Spanyol"
+      "league": "Liga Spanyol",
+      "logo": "https://petrusdavidadipranata.github.io/img/realsociedad.png"
     },
     {
       "rank": 25,
       "name": "Villarreal",
-      "league": "Liga Spanyol"
+      "league": "Liga Spanyol",
+      "logo": "https://petrusdavidadipranata.github.io/img/villareal.png"
     },
     {
       "rank": 26,
       "name": "Getafe",
-      "league": "Liga Spanyol"
+      "league": "Liga Spanyol",
+      "logo": "https://petrusdavidadipranata.github.coiom/img/getafe.png"
     },
     {
       "rank": 27,
       "name": "Ajax",
-      "league": "Liga Belanda"
+      "league": "Liga Belanda",
+      "logo": "https://petrusdavidadipranata.github.io/img/ajax.png"
     },
     {
       "rank": 28,
       "name": "Tottenham Hotspur",
-      "league": "Liga Inggris"
+      "league": "Liga Inggris",
+      "logo": "https://petrusdavidadipranata.github.io/img/tottenham.png"
     },
     {
       "rank": 29,
       "name": "Arsenal",
-      "league": "Liga Inggris"
+      "league": "Liga Inggris",
+      "logo": "https://petrusdavidadipranata.github.io/img/arsenal.png"
     },
     {
       "rank": 30,
       "name": "Roma",
-      "league": "Liga Italia"
+      "league": "Liga Italia",
+      "logo": "https://petrusdavidadipranata.github.io/img/roma.png"
     },
     {
       "rank": 31,
       "name": "Porto",
-      "league": "Liga Portugal"
+      "league": "Liga Portugal",
+      "logo": "https://petrusdavidadipranata.github.io/img/porto.png"
     },
     {
       "rank": 32,
       "name": "Granada",
-      "league": "Liga Spanyol"
+      "league": "Liga Spanyol",
+      "logo": "https://petrusdavidadipranata.github.io/img/granada.png"
     },
     {
       "rank": 33,
       "name": "Southampton",
-      "league": "Liga Inggris"
+      "league": "Liga Inggris",
+      "logo": "https://petrusdavidadipranata.github.io/img/southampton.png"
     },
     {
       "rank": 34,
       "name": "Olympiacos",
-      "league": "Liga Yunani"
+      "league": "Liga Yunani",
+      "logo": "https://petrusdavidadipranata.github.io/img/olimpiakos.png"
     },
     {
       "rank": 35,
       "name": "Hoffenheim",
-      "league": "Bundesliga"
+      "league": "Bundesliga",
+      "logo": "https://petrusdavidadipranata.github.io/img/hoffenheim.png"
     },
     {
       "rank": 36,
       "name": "Flamengo",
-      "league": "Liga Brasil"
+      "league": "Liga Brasil",
+      "logo": "https://petrusdavidadipranata.github.io/img/flamengo.png"
     },
     {
       "rank": 37,
       "name": "Wolfsburg",
-      "league": "Bundesliga"
+      "league": "Bundesliga",
+      "logo": "https://petrusdavidadipranata.github.io/img/wolfsburg.png"
     },
     {
       "rank": 38,
       "name": "Everton",
-      "league": "Liga Inggris"
+      "league": "Liga Inggris",
+      "logo": "https://petrusdavidadipranata.github.io/img/everton.png"
     },
     {
       "rank": 39,
       "name": "Leganes",
-      "league": "Liga Spanyol"
+      "league": "Liga Spanyol",
+      "logo": "https://petrusdavidadipranata.github.io/img/leganes.png"
     },
     {
       "rank": 40,
       "name": "Lyon",
-      "league": "Liga Prancis"
+      "league": "Liga Prancis",
+      "logo": "https://petrusdavidadipranata.github.io/img/lyon.png"
     },
     {
       "rank": 41,
       "name": "Benfica",
-      "league": "Liga Portugal"
+      "league": "Liga Portugal",
+      "logo": "https://petrusdavidadipranata.github.io/img/benfica.png"
     },
     {
       "rank": 42,
       "name": "Shakhtar Donetsk",
-      "league": "Liga Ukraina"
+      "league": "Liga Ukraina",
+      "logo": "https://petrusdavidadipranata.github.io/img/shakhtar.png"
     },
     {
       "rank": 43,
       "name": "Real Betis",
-      "league": "Liga Spanyol"
+      "league": "Liga Spanyol",
+      "logo": "https://petrusdavidadipranata.github.io/img/realbetis.png"
     },
     {
       "rank": 44,
       "name": "Eintracht Frankfurt",
-      "league": "Bundesliga"
+      "league": "Bundesliga",
+      "logo": "https://petrusdavidadipranata.github.io/img/eintracht-f.png"
     },
     {
       "rank": 45,
       "name": "Lazio",
-      "league": "Liga Italia"
+      "league": "Liga Italia",
+      "logo": "https://petrusdavidadipranata.github.io/img/lazio.png"
     },
     {
       "rank": 46,
       "name": "Sheffield United",
-      "league": "Liga Inggris"
+      "league": "Liga Inggris",
+      "logo": "https://petrusdavidadipranata.github.io/img/sheffield.png"
     },
     {
       "rank": 47,
       "name": "Burnley",
-      "league": "Liga Inggris"
+      "league": "Liga Inggris",
+      "logo": "https://petrusdavidadipranata.github.io/img/burnley.png"
     },
     {
       "rank": 48,
       "name": "Lille",
-      "league": "Liga Prancis"
+      "league": "Liga Prancis",
+      "logo": "https://petrusdavidadipranata.github.io/img/lille.png"
     },
     {
       "rank": 49,
       "name": "Watford",
-      "league": "Liga Inggris/Divisi Championship"
+      "league": "Liga Inggris/Divisi Championship",
+      "logo": "https://petrusdavidadipranata.github.io/img/watford.png"
     },
     {
       "rank": 50,
       "name": "Osasuna",
-      "league": "Liga Spanyol"
+      "league": "Liga Spanyol",
+      "logo": "https://petrusdavidadipranata.github.io/img/osasuna.png"
     }
   ]
 }
