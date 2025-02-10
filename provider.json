@@ -16,7 +16,6 @@
       "0823": "Kartu As",
       "0852": "Kartu As",
       "0853": "Kartu As",
-      "0851": "By.U"
     },
     "TRI": {
       "0898": "Kartu TRI/3",
@@ -50,6 +49,9 @@
       "0833": "Kartu Axis",
       "0838": "Kartu Axis",
       "0831": "Kartu Axis"
+    }, 
+    "B.YU": {
+      "0851": "By.U"
     }
   }
   
